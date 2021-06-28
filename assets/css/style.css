@@ -18,6 +18,7 @@ body {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
   url('/assets/img/Burger_Home_Hero.jpg') center/cover no-repeat fixed;
   margin-top: auto;
+  
 }
 
 /* Hero */
@@ -30,6 +31,7 @@ body {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
+
 }
 
 .hero .title {
@@ -37,11 +39,18 @@ body {
   font-size: 70px;
 }
 
+.info-hero-button {
+  color: #fff;
+  font-size: 15px;
+}
+
 .hero-button {
+  /* align */
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 20px;
+  /* border */
   border-radius: 200px;
   font-weight: bold;
   background: orange;
@@ -51,6 +60,33 @@ body {
   margin-top: 10px;
 }
 
-/* En of Hero */
+.hero-button:hover {
+  /* contrariwise border */
+  background: #fff;
+  color: orange;
+  border: none;
+}
+
+.pulsate {
+  /* book now " EAT NOW " button will pulsate every 4sec */
+  animation: pulsate 4s ease-in-out;
+  animation-iteration-count: infinite;
+  opacity: .3;
+  color: #000;
+}
+/* Webkit keyframe for the pulsate function */
+@-webkit-keyframes pulsate {
+  0%{
+    opacity: .3;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: .3;
+  }
+}
+
+/* End of Hero */
 
 /* End of Header */
