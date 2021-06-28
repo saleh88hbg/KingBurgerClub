@@ -10,6 +10,12 @@ body {
   font-family: 'Playfair Display', serif;
   line-height: 1.5;
 }
+/* Title , about us , get to know us */
+.title-text {
+  font-size: 40px;
+  text-align: center;
+}
+
 
 /* Header */
 /* Hero img _ light out the image to darker */
@@ -18,7 +24,6 @@ body {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
   url('/assets/img/Burger_Home_Hero.jpg') center/cover no-repeat fixed;
   margin-top: auto;
-  
 }
 
 /* Hero */
@@ -31,7 +36,6 @@ body {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-
 }
 
 .hero .title {
@@ -45,12 +49,16 @@ body {
 }
 
 .hero-button {
-  /* align */
+/* align */
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
   padding: 15px 20px;
-  /* border */
+  overflow: hidden;
+  
+/* border */
   border-radius: 200px;
   font-weight: bold;
   background: orange;
@@ -61,32 +69,73 @@ body {
 }
 
 .hero-button:hover {
-  /* contrariwise border */
+/* contrariwise border */
   background: #fff;
   color: orange;
-  border: none;
+  border: transparent 2px;
 }
 
 .pulsate {
-  /* book now " EAT NOW " button will pulsate every 4sec */
-  animation: pulsate 4s ease-in-out;
-  animation-iteration-count: infinite;
-  opacity: .3;
+/* book now " EAT NOW " button will wiggle every 2sec to get attraction */
+  animation: wiggle 2s linear infinite;
   color: #000;
 }
-/* Webkit keyframe for the pulsate function */
-@-webkit-keyframes pulsate {
-  0%{
-    opacity: .3;
+/* Webkit keyframe for the wiggle function */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
   }
-  50%{
-    opacity: 1;
+  15% {
+    transform: rotateZ(-15deg);
   }
-  100%{
-    opacity: .3;
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
   }
 }
 
 /* End of Hero */
 
 /* End of Header */
+
+/* About us section */
+
+#about {
+  padding: 40px;
+}
+.about {
+  margin: 30px 0;
+  display: flex;
+}
+.about-icon .fas {
+  font-size: 60px;
+  color: orange;
+  margin-right: 20px;
+}
+.about-subtitle {
+  text-transform: capitalize;
+  color: orange;
+  font-size: 25px;
+}
+.about-info {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Hover transition of the about icon and subtitle */
+.about-icon:hover .fas, .about-subtitle:hover {
+  transition: transform 500ms ease, color 2s ease;
+  transform: translateY(-10px);
+  color: #ff4500;
+}
