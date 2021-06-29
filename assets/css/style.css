@@ -53,8 +53,9 @@ body {
 
 /* Title , about us , get to know us */
 .title-text {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  color: orange;
 }
 
 
@@ -73,13 +74,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* ????? 
   position: absolute;
+ */
   background-attachment: fixed;
   width: 100%;
   height: 100%;
 }
 
-.hero .title {
+.title-hero {
   color: #fff;
   font-size: 70px;
 }
@@ -181,21 +184,117 @@ body {
   color: #ff4500;
 }
 /* media screen size phone from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 500px) {
   .about-center{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
+    margin: 5%;
   }
   .about {
-    flex: 0 0 calc(50% - 16px);
-  } 
+    display: flex;
+  }
+  
 }
 
-@media screen and (min-width: 972px) {
+@media screen and (max-width: 972px) {
   .about {
-  flex: 0 0 calc(33.3% - 16px);
+  display: flex;
   }
+  .about-center{
+    display: block;
+    margin: 5%;
+  }
+
+  /*
+  #logo
+    */
+    
+    
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+  .title-hero {
+    font-size: 30px;
+  }
+  .title-text {
+    font-size: 30px;
+  } 
+  
 }
 
 /* End of About us section */
+
+/* Menu section */
+
+.menu-image {
+  min-height: 80vh;
+  background: url('../img/menu-image.jpg')center/cover fixed no-repeat;
+}
+.menu-text {
+  min-height: 80vh;
+  align-items: center;
+  background: orange;
+  columns: #000;
+  padding: 40px 0;
+}
+.menu-text-center {
+  width: 90%;
+  margin: 0 auto;
+}
+.menu-text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.menu-text p{
+  margin: 20px 0;
+  line-height: 2;
+}
+.menu-text a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 20px;
+  border-radius: 120px;
+  font-weight: bold;
+  background: #000;
+  color: orange;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.menu-text a:hover{
+  color: orange;
+  background: #fff;
+  border: none;
+}
+/* End Menu section*/
+
+
+
+/* Footer and social media */
+
+footer {
+  height: 150px;
+}
+
+.social-network {
+  text-align: center;
+}
+
+.social-network > li {
+  display: inline;
+}
+
+.social-network i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 10%;
+  color: orange;
+
+}
+
+/* End Footer and social media */
