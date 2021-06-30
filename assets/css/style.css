@@ -116,8 +116,8 @@ body {
   border: transparent 2px;
 }
 
+/* book now " EAT NOW " button will wiggle every 2sec to get attraction */
 .wiggle {
-  /* book now " EAT NOW " button will wiggle every 2sec to get attraction */
   animation: wiggle 2s linear infinite;
   color: #000;
 }
@@ -241,8 +241,6 @@ body {
 
 }
 
-
-
 /* Menu section */
 .menu-image {
   min-height: 80vh;
@@ -252,7 +250,6 @@ body {
 .menu-text {
   min-height: 80vh;
   align-items: center;
-  columns: #000;
   padding: 40px 0;
 }
 
@@ -350,20 +347,22 @@ td {
 @media screen and (max-width: 500px) {
   .contact-boxes-container {
     padding: 30%;
+    
   }
 
   .contact-box-center {
     margin: 5%;
+    
   }
 
   .contact-box-left {
     margin: 5%;
-
-
+    
   }
 
   .contact-box-right {
     margin: 5%;
+    text-align: center;
 
   }
 

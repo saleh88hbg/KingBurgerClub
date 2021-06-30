@@ -1,60 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-![burgerking](assets/img/menu-image.jpg)
+#                                King Burger's club
 
-Welcome saleh88hbg,
+![burgerking](assets/img/readme-img/responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+## [View the live project here.](https://saleh88hbg.github.io/KingBurgerClub-MS1/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+I have designed this webpage using HTML and CSS, the UX was kept clean whit purpose to drag attention on making a booking.
+The website is responsive and user friendly and easy to understand the purpose of the site.
+I've included the feature of social media links on the footer section so one can navigate directly to the social media pages of the company 
+and ggoogle map is deployed to our visiting address (fixed address).
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Languages
 
-A blue button should appear to click: _Make Public_,
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+Was used for the overall structure of the website.
 
-Another blue button should appear to click: _Open Browser_.
+[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+Was used for styling the elements and content on the website.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Frameworks, IDE, Libraries and Programs
 
-To log into the Heroku toolbelt CLI:
+[Google Fonts:](https://fonts.google.com/) - 
+Google fonts were used to import the 'Barlow Condensed' font into the style.css file which is used on all pages throughout the project.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[GitHub:](https://github.com/)
+GitHub was used to store the projects code after being pushed from Git.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+[Gitpod:](https://www.gitpod.io/)
+Was used to develop and write my project and push all commits through integrated "git" to Github.
 
-## Updates Since The Instructional Video
+## Content
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The content (Menu, About) on the page was written by me "Saleh Chehade".
+The contact and map location is a "fixed address".
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing W3C
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The W3C Html Validator and W3C CSS Validator Services were used to validate the code. 
+No errors were found in the code, only few warnings were the W3C html consider that heading elements need to be continued. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![W3html](assets/img/readme-img/w3htmlcheck.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![W3Css](assets/img/readme-img/w3c_css_check.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing Lighthouse
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I also used Lighthouse to audit the performance of the websites. First picture is testing of desktop and the second for mobile.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Desktop](assets/img/readme-img/lighthouse_desktop.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Mobile](assets/img/readme-img/lighthouse_mobile.png)
+
+## Features
+
+1. Basic and clean UX.
+2. Mobile responsive platform.
+3. Google map for location
+
+
+### Features Left to Implement
+
+In a near future I would like to implement:
+
+1. Add table booking
+2. Add Order menu
+3. Add coupon function
+4. Add payment function
+5. Add member database
+
+To complete that i need to learn more programming languages to make the website more interactive and functional.
+
+## Tools and editors:
+
+[Google fonts:](https://fonts.google.com/)
+Font Family: "Playfair" for the entire project.
+
+[Font Awesome:](https://fontawesome.com/)
+The icon combination used on the button and (get to know us section).
+
+[a:hover](https://www.w3schools.com/cssref/sel_hover.asp)
+Hover function on nav bar and icons. 
+
+[Wiggle button](https://codepen.io/donovanh/pen/KwEQdQ)
+I used wiggle button to attract the user to approach and proceed by click the button to make a booking.
+
+[Google map api:](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+The map was deployed to give the user a location and address to the restaurant (fixed address)
+
+## Compatibility
+
+* The website was tested: 
+
+* Browser: Edge and Chrome : No problems detected
+* DevTools: Chrome
+* Chrome lighthouse
+* W3C
+
+## Content
+
+The content was written by me.
+
+### The images and information were obtained from:
+
+1. https://www.w3schools.com/ info
+2. https://css-tricks.com/ info
+3. https://blog.hubspot.com/website/css-animation-examples info
+4. https://developer.mozilla.org/en-US/docs/Web/CSS info
+5. https://ishadeed.com/article/learn-box-alignment/ info
+6. https://tinypng.com/ Photo compress
+7. https://www.unsplash.com/ Photo
+
+## Credits
+
+* Mentor Tim Nelson
+* Google
 
 ---
 
-Happy coding!
+Saleh Chehade 2021-06-30 Happy coding!
