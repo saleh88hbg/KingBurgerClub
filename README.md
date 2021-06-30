@@ -119,6 +119,7 @@ The content was written by me.
 ## Credits
 
 * Mentor Tim Nelson
+* Tutor JohanN
 * Google
 
 ---

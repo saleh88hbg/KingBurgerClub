@@ -344,25 +344,31 @@ td {
   border-bottom: 1px solid orange;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   .contact-boxes-container {
-    padding: 30%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
   }
 
   .contact-box-center {
     margin: 5%;
+    text-align: left;
     
   }
 
   .contact-box-left {
     margin: 5%;
+    text-align: left;
     
   }
 
   .contact-box-right {
     margin: 5%;
-    text-align: center;
+    text-align: left;
 
   }
 
@@ -409,3 +415,10 @@ footer {
 .copy-center {
   float: right;
 }
+
+@media screen and (max-width: 400px) {
+
+  .social-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
