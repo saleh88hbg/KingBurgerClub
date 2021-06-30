@@ -351,19 +351,19 @@ td {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
   }
 
   .contact-box-center {
     margin: 5%;
     text-align: left;
-    
+
   }
 
   .contact-box-left {
     margin: 5%;
     text-align: left;
-    
+
   }
 
   .contact-box-right {
@@ -422,3 +422,4 @@ footer {
     font-size: 20px;
     font-weight: bold;
   }
+}  

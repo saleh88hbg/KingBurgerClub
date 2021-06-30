@@ -121,7 +121,8 @@ The content was written by me.
 * Mentor Tim Nelson
 * Tutor JohanN
 * Google
-
+* Code instutite - code for "contact used and changed from project coders coffee house"
+* Erum Waris - code used for helping me structure the base of the site and to achieve more learning by doing and understand the consequences of changing " https://codepen.io/EJW4/pen/WNxJRjP "
 ---
 
 Saleh Chehade 2021-06-30 Happy coding!
